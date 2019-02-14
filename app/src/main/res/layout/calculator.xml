@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_margin="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/number7"
+        android:id="@+id/n7"
+
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/number8"
+        android:layout_toEndOf="@+id/n7"
+        android:id="@+id/n8"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/number9"
+        android:layout_toEndOf="@+id/n8"
+        android:id="@+id/n9"
+
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/number4"
+        android:layout_below="@+id/n7"
+        android:id="@+id/n4"
+
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/number5"
+        android:layout_below="@+id/n8"
+        android:id="@+id/n5"
+        android:layout_toEndOf="@+id/n4"
+    />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/number6"
+        android:layout_below="@+id/n8"
+        android:id="@+id/n6"
+        android:layout_toEndOf="@+id/n5"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/number1"
+        android:layout_below="@+id/n6"
+        android:id="@+id/n1"
+
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/number2"
+        android:layout_below="@+id/n5"
+        android:id="@+id/n2"
+        android:layout_toEndOf="@+id/n1"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/number3"
+        android:layout_below="@+id/n6"
+        android:id="@+id/n3"
+        android:layout_toEndOf="@+id/n2"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/number0"
+        android:layout_below="@+id/n1"
+        android:id="@+id/n0"
+
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/punto"
+        android:layout_below="@+id/n2"
+        android:id="@+id/punt"
+        android:layout_toEndOf="@+id/n4"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/igual"
+        android:layout_below="@+id/n3"
+        android:id="@+id/igua"
+        android:layout_toEndOf="@+id/punt"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/suma"
+        android:id="@+id/sumar"
+        android:layout_toEndOf="@+id/n9"
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/resta"
+        android:layout_below="@+id/sumar"
+        android:id="@+id/restar"
+        android:layout_toEndOf="@+id/n6"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/multi"
+        android:layout_below="@+id/restar"
+        android:id="@+id/multiply"
+        android:layout_toEndOf="@+id/n3"
+        />
+
+    <Button
+        android:id="@+id/di"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/multiply"
+        android:layout_toEndOf="@+id/igua"
+        android:text="@string/division" />
+
+<TextView
+    android:layout_width="350dp"
+    android:layout_height="wrap_content"
+    android:hint="@string/number0"
+android:layout_below="@id/n0"
+    android:textStyle="bold"
+    android:textSize="50dp"
+    />
+
+
+
+
+
+
+</RelativeLayout>
